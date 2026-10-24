@@ -1,0 +1,10 @@
+{
+  "name": "Ethiopian STG 2021",
+  "short_name": "STG 2021",
+  "description": "Offline-friendly reader for Ethiopia's Standard Treatment Guidelines, Fourth Edition, 2021.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#173c32",
+  "icons": []
+}
