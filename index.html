@@ -36,7 +36,7 @@ const q = document.getElementById('q');
 function render() {
  const term = q.value.trim().toLowerCase();
  const shown = chapters.filter(c => c.name.toLowerCase().includes(term));
- list.innerHTML = shown.map(c => `<li><a href="stg-guideline.pdf#page=${c.page}" target="_blank" rel="noopener"><span>${c.name}</span><span>p. ${c.page-1} ↗</span></a></li>`).join('');
+ list.innerHTML = shown.map(c => `<li><a href="stg-guideline.pdf#page=${c.page}"><span>${c.name}</span><span>p. ${c.page-1} ↗</span></a></li>`).join('');
 }
 q.addEventListener('input', render); render();
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
